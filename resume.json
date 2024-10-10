@@ -1,0 +1,208 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Matthew Tyler Elliott",
+    "label": "Programmer",
+    "image": "",
+    "email": "work@mattttelliott.com",
+    "phone": "(512) 609-0123",
+    "url": "https://matttelliott.com",
+    "summary": "Software Engineer with a decade of professional experience and lifelong coder. I specialize in Web Development and apps built with web technologies. I focus on user and developer experiences when designing, developing, implementing, and testing new products and features. I navigate comfortably in the unknown to produce high-impact, user-focused products, and features at a superior level of quality, performance, and readability.",
+    "location": {
+      "city": "Austin",
+      "countryCode": "US",
+      "region": "Texas"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "matttelliott",
+        "url": "https://www.linkedin.com/in/matttelliott/"
+      },
+      {
+        "network": "Github",
+        "username": "matttelliott",
+        "url": "https://github.com/matttelliott"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Apple (via TEKSystems)",
+      "location": "Office/Remote Hybrid",
+      "description": "Computers and Electronics Manufacturing",
+      "position": "Sr Software Engineer",
+      "url": "https://apple.com",
+      "startDate": "August 2023",
+      "endDate": "August 2024",
+      "highlights": [
+        "Develop Internal applications in support of B2B operations.",
+        "Full stack developer of successful B2B app",
+        "Apply modern JavaScript standards to languishing internal applications (migration to ESM/Vite)",
+        "Work with Apple internal tooling (AppleConnect, Rio, Radar)"
+      ]
+    },
+    {
+      "name": "Pluto.tv (via TEKSystems)",
+      "location": "Remote",
+      "description": "Pluto TV is the leading FREE streaming television service with 100s of channels & 1000s of movies and shows! 🚀",
+      "position": "Sr Software Engineer (SmartTVs)",
+      "url": "https://pluto.tv/",
+      "startDate": "April 2022",
+      "endDate": "May 2023",
+      "summary": "Develop React based streaming video apps and integrated video players for Smart TVs using web technologies. Focus on new processes, enhancements, and feature updates to make sure that as they launch they are able to align with different device types and translate into different markets they may reach.",
+      "highlights": [
+        "Work jointly with Product, Design, Business Intelligence, QA and Backend teams to deliver a",
+        "best-in-class user experience to entertain millions of users",
+        "Design/implement DOM-native and React-based solutions that anticipate failure and corner cases",
+        "Lead and Mentor Junior Developers in modern Typescript language features and architecture"
+      ]
+    },
+    {
+      "name": "FloSports",
+      "location": "Office/Remote Hybrid",
+      "description": "Live Events. Exclusive Content. Be there.",
+      "position": "Sr Software Engineer",
+      "url": "https://flosports.tv/",
+      "startDate": "November 2017",
+      "endDate": "December 2020",
+      "summary": "Provide full stack engineering services, including building, iterating, testing, and deploying new and existing features, API services, and apps. Collaborate cross-functionally with Design, Product, and Engineering teams to deliver high-performing products and enhancements.",
+      "highlights": [
+        "Developed Angular-based user-facing components and backend APIs to achieve compelling experiences with a mobile-first mindset",
+        "Recognized for achievement in developing a custom CSS design system, resulting in a multi-tenanted, CMS-driven web app",
+        "Ensured excellent product performance and user-friendliness by conducting meticulous, comprehensive A/B and multivariate testing",
+        "Architected and developed APIs that met REST best practices"
+      ]
+    },
+    {
+      "name": "Business Integra",
+      "location": "In Office",
+      "description": "An award-winning global provider of information technology for gov and commercial, recognized by Inc. Magazine.",
+      "position": "Sr Software Engineer",
+      "url": "https://www.businessintegra.com/",
+      "startDate": "November 2016",
+      "endDate": "November 2017",
+      "summary": "Lead Engineer on a US Department of Labor contract for the development of a Survey Management application. Oversaw project Git repositories and managed pull requests and merge conflicts.",
+      "highlights": [
+        "Achieved client delivery deadlines through strategic project planning, timekeeping, and project management as well as diligent use of JIRA",
+        "Led team of engineers in client app development via Angular 2 ,(beta), Typescript, and RxJS as well as implementation, and testing",
+        "Championed for automating build and deployment processes through multi-tiered AWS architecture"
+      ]
+    },
+
+    {
+      "name": "The Permanent Legacy Foundation",
+      "location": "In Office",
+      "description": "We are a 501(c)(3) nonprofit public charity making it possible for all people to securely preserve their digital legacy.",
+      "position": "Software Engineer",
+      "url": "https://permanent.org/",
+      "startDate": "November 2016",
+      "endDate": "November 2017",
+      "summary": "Developed User Interfaces (UI) using HTML5, CSS3, and JavaScript.",
+      "highlights": [
+        "Created web-based file management system using Angular Js 1.x",
+        "Implemented multi-factor authentication system utilizing UI-Router",
+        "Developed Stripe billing system, enabling users to purchase shared resources",
+        "Created robust content sharing system, allowing users to share profiles and content with multiple permission levels",
+        "Identified and diagnosed issues with Vagrant development environment",
+        "Created real time user notification system to inform users of updates",
+        "Translated wireframe mockups to production application",
+        "Implemented project style guide and responsive UI using Bootstrap and Less",
+        "Planned, tracked, and managed projects utilizing Agile Development Methodologies"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "CoderDojo",
+      "position": "Teacher",
+      "url": "http://coderdojo.example.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Global movement of free coding clubs for young people.",
+      "highlights": ["Awarded 'Teacher of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Oklahoma",
+      "url": "https://www.ou.edu/",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2011-06-01",
+      "endDate": "2014-01-01",
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL", "CS2011 - Java Introduction"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Video compression for 3d media",
+      "publisher": "Hooli",
+      "releaseDate": "2014-10-01",
+      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "Javascript"]
+    },
+    {
+      "name": "Compression",
+      "level": "Master",
+      "keywords": ["Mpeg", "MP4", "GIF"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Miss Direction",
+      "description": "A mapping engine that misguides you",
+      "highlights": [
+        "Won award at AIHacks 2016",
+        "Built by all women team of newbie programmers",
+        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      ],
+      "keywords": ["GoogleMaps", "Chrome Extension", "Javascript"],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "url": "http://missdirection.example.com",
+      "roles": ["Team lead", "Designer"],
+      "entity": "Smoogle",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/sample.resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}

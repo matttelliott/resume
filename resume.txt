@@ -1,0 +1,82 @@
+Matt T Elliott
+Austin, TX 
+
+Summary
+Software Engineer and Contractor with a decade of professional experience and lifelong coder. I specialize in Web Development and apps built with web technologies. I focus on user and developer experiences when designing, developing, implementing, and testing new products and features. I navigate comfortably in the unknown to produce high-impact, user-focused products, and features at a superior level of quality, performance, and readability.
+
+Areas of Expertise:
+
+
+	•	Front-End Web Development
+	•	End-to-End Product Development & Feature Implementation
+	•	Frontend Architecture
+	•	Functional Testing (Jest/Vitest, Cypress/Playwright)
+	•	A/B Testing (Optimizely)
+	•	 Node.js
+	•	CI/CD Workflows
+	•	Streaming Video (HLS/MPEG-DASH)
+	•	Visual Design for UX & UI
+	•	End-to-End UX & UI Testing
+	•	Reusable Web Components
+	•	 Angular/React/Vue/Svelte
+	•	Nrwl/NX Workspaces
+	•	RxJS/Observables
+	•	JavaScript/TypeScript
+	•	HTML
+	•	GraphQL
+	•	Mobile-Responsive CSS/SCSS
+	•	Angular Schematics/Generators
+
+
+Recent Achievements:
+	•	Update and modernize internal libraries and B2B apps at Apple, improving security, performance, and developer productivity
+	•	Coordinate engineering efforts between PlutoTV, Paramount Pictures, and 3rd party vendors in development of SmartTV Privacy Management features to meet regulatory obligations.
+	•	Developed Angular-based user-facing components and backend APIs for FloSports, resulting in highly intuitive, compelling, and mobile-first user experiences
+
+Experience
+Sr Software Engineer
+Apple (TEKsystems) 2023 - 2024
+	•	Develop Internal applications in support of B2B operations.
+	•	Full stack developer of successful B2B app
+	•	Apply modern JavaScript standards to languishing internal applications (migration to ESM/Vite)
+	•	Work with Apple internal tooling (AppleConnect, Rio, Radar)
+
+     Sr Software Engineer (SmartTVs)
+Pluto TV (TEKsystems) 2022 - 2023
+Develop React based streaming video apps and integrated video players for Smart TVs using web technologies. Focus on new processes, enhancements, and feature updates to make sure that as they launch they are able to align with different device types and translate into different markets they may reach.
+	•	Work jointly with Product, Design, Business Intelligence, QA and Backend teams to deliver a
+	•	best-in-class user experience to entertain millions of users
+	•	Design/implement DOM-native and React-based solutions that anticipate failure and corner cases
+	•	Lead and Mentor Junior Developers in modern Typescript language features and architecture
+
+     Sr Software Engineer
+FloSports
+2017 - 2020
+Provide full stack engineering services, including building, iterating, testing, and deploying new and existing features, API services, and apps. Collaborate cross-functionally with Design, Product, and Engineering teams to deliver high-performing products and enhancements.
+	•	Developed Angular-based user-facing components and backend APIs to achieve compelling experiences with a mobile-first mindset
+	•	Recognized for achievement in developing a custom CSS design system, resulting in a multi-tenanted, CMS-driven web app
+	•	Ensured excellent product performance and user-friendliness by conducting meticulous, comprehensive A/B and multivariate testing
+	•	Architected and developed APIs that met REST best practices
+
+
+Sr Software Engineer Business Integra Inc 2016 - 2017
+Lead Engineer on a US Department of Labor contract for the development of a Survey Management application. Oversaw project Git repositories and managed pull requests and merge conflicts. 
+	•	Achieved client delivery deadlines through strategic project planning, timekeeping, and project management as well as diligent use of JIRA
+	•	Led team of engineers in client app development via Angular 2 ,(beta), Typescript, and RxJS as well as implementation, and testing
+	•	Championed for automating build and deployment processes through multi-tiered AWS architecture
+
+
+      Software Engineer
+The Permanent Legacy Foundation
+2015 - 2016
+Developed User Interfaces (UI) using HTML5, CSS3, and JavaScript.
+	•	Created web-based file management system using Angular Js 1.x
+	•	Implemented multi-factor authentication system utilizing UI-Router
+	•	Developed Stripe billing system, enabling users to purchase shared resources
+	•	Created robust content sharing system, allowing users to share profiles and content with multiple permission levels
+	•	Identified and diagnosed issues with Vagrant development environment
+	•	Created real time user notification system to inform users of updates
+	•	Translated wireframe mockups to production application
+	•	Implemented project style guide and responsive UI using Bootstrap and Less
+	•	Planned, tracked, and managed projects utilizing Agile Development Methodologies
+
