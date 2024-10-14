@@ -14,7 +14,7 @@
   <body
     x-cloak
     x-data="{ resume: 'loading...' }"
-    x-init="resume = await (await fetch('/resume.json')).json()"
+    x-init="resume = await (await fetch('./resume.json')).json()"
   >
     <header>
       <h1 x-text="resume.basics.name"></h1>
