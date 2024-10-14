@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+    <style>
+      [x-cloak] {
+        display: none !important;
+      }
+    </style>
+  </head>
+  <body
+    x-cloak
+    x-data="{ resume: 'loading...' }"
+    x-init="resume = await (await fetch('/resume.json')).json()"
+  >
+    <header>
+      <h1 x-text="resume.basics.name"></h1>
+      <h5 x-text="resume.basics.label"></h5>
+
+      <address>
+        <span x-text="resume.basics.location.city"></span>,
+        <span x-text="resume.basics.location.region"></span>,
+        <span x-text="resume.basics.location.countryCode"></span>
+      </address>
+      <a x-text="resume.basics.url" :href="resume.basics.url"></a>
+      <br />
+      <a
+        x-text="resume.basics.email"
+        :href="'mailto:' + resume.basics.email"
+      ></a>
+
+      <nav>
+        <ul>
+          <template x-for="profile in resume.basics.profiles">
+            <li>
+              <a :href="profile.url" x-text="profile.network"></a>
+            </li>
+          </template>
+        </ul>
+      </nav>
+    </header>
+
+    <p x-text="resume.basics.summary"></p>
+
+    <main>
+      <section>
+        <h3>Experience</h3>
+        <dl>
+          <template x-for="job in resume.work">
+            <div>
+              <dt>
+                <a x-text="job.name" :href="job.url"></a>
+                <div x-text="job.position"></div>
+                <span x-text="job.startDate"></span> -
+                <span x-text="job.endDate"></span>
+              </dt>
+              <dd>
+                <p x-text="job.summary"></p>
+                <ul>
+                  <template x-for="highlight in job.highlights">
+                    <li x-text="highlight"></li>
+                  </template>
+                </ul>
+              </dd>
+            </div>
+          </template>
+        </dl>
+      </section>
+      <section>
+        <h3>Skills</h3>
+        <ul>
+          <template x-for="skill in resume.skills">
+            <li>
+              <span x-text="skill.name"></span>
+              <template x-for="keyword in skill.keywords">
+                <span x-text="keyword" style="opacity: 0"></span>
+              </template>
+            </li>
+          </template>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <a href="resume.pdf" download>Download PDF</a>
+
+      <p>
+        This page is kept simple with HTML,
+        <a href="https://simplecss.org/">simple.css</a>,
+        <a href="https://alpinejs.dev/">alpine.js</a>, and
+        <a href="https://jsonresume.org/">JSON Resume</a>
+      </p>
+      <a href="https://github.com/matttelliott/resume">Github</a>
+    </footer>
+  </body>
+</html>

@@ -5,7 +5,7 @@
     "label": "Software Engineer (Web, UI/UX, Steaming Media)",
     "image": "",
     "email": "work@mattttelliott.com",
-    "phone": "(512) 609-0123",
+    "phone": "(512)609-0123",
     "url": "https://matttelliott.com",
     "summary": "Software Engineer with a decade of professional experience and lifelong coder. I specialize in Web Development and apps built with web technologies. I focus on user and developer experiences when designing, developing, implementing, and testing new products and features. I navigate comfortably in the unknown to produce high-impact, user-focused products, and features at a superior level of quality, performance, and readability.",
     "location": {
@@ -80,7 +80,7 @@
       "description": "An award-winning global provider of information technology for gov and commercial, recognized by Inc. Magazine.",
       "position": "Sr Software Engineer",
       "url": "https://www.businessintegra.com/",
-      "startDate": "November 2016",
+      "startDate": "September 2016",
       "endDate": "November 2017",
       "summary": "Lead Engineer on a US Department of Labor contract for the development of a Survey Management application. Oversaw project Git repositories and managed pull requests and merge conflicts.",
       "highlights": [
@@ -96,8 +96,8 @@
       "description": "We are a 501(c)(3) nonprofit public charity making it possible for all people to securely preserve their digital legacy.",
       "position": "Software Engineer",
       "url": "https://permanent.org/",
-      "startDate": "November 2016",
-      "endDate": "November 2017",
+      "startDate": "May 2015",
+      "endDate": "September 2016",
       "summary": "Developed User Interfaces (UI) using HTML5, CSS3, and JavaScript.",
       "highlights": [
         "Created web-based file management system using Angular Js 1.x",
@@ -158,11 +158,34 @@
       "level": "Master",
       "keywords": ["HTML", "CSS", "Javascript"]
     },
+
+    { "name": "End-to-End Product Development & Feature Implementation" },
+    { "name": "Frontend Architecture", "level": "Master" },
     {
-      "name": "Compression",
-      "level": "Master",
-      "keywords": ["Mpeg", "MP4", "GIF"]
-    }
+      "name": "Angular Schematics/Generators"
+    },
+
+    {
+      "name": "Software Acceptance Testing",
+      "keywords": ["Jest", "Karma", "Cypress", "Playwright", "Vitest"]
+    },
+    { "name": "A/B Testing", "keywords": ["Optimizely"] },
+    { "name": "Streaming Video", "keywords": ["HLS", "MPEG-DASH"] },
+
+    { "name": "Visual Design for UX & UI", "keywords": ["Figma", "Sketch"] },
+    { "name": "End-to-End UX & UI Testing" },
+    { "name": "Mobile-Responsive CSS/SCSS" },
+    {
+      "name": "Reusable Web Component Development"
+    },
+
+    { "name": "Angular/React/Vue/Svelte" },
+    { "name": "Nrwl/NX Workspaces" },
+
+    { "name": "RxJS/Observables" },
+    { "name": "JavaScript/TypeScript • HTML" },
+    { "name": "Node.js" },
+    { "name": "CI/CD Workflows" }
   ],
   "languages": [
     {
