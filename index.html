@@ -9,6 +9,22 @@
       [x-cloak] {
         display: none !important;
       }
+
+      @media print {
+        body {
+          background-color: pink;
+        }
+
+        .no-print {
+          display: none;
+        }
+
+        header {
+          display: flex;
+          flex-direction: column;
+          justify-content: start;
+        }
+      }
     </style>
   </head>
   <body
@@ -83,7 +99,7 @@
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="no-print">
       <a href="resume.pdf" download>Download PDF</a>
 
       <p>
