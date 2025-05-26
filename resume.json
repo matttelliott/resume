@@ -4,7 +4,7 @@
     "name": "Matthew Tyler Elliott",
     "label": "Software Engineer (Web, UI/UX, Steaming Media)",
     "image": "",
-    "email": "jobsezq@gmail.com",
+    "email": "work@matttelliott.com",
     "phone": "737-408-2919",
     "url": "https://matttelliott.com",
     "summary": "Software Engineer with a decade of professional experience and lifelong coder. I specialize in Web Development and apps built with web technologies. I focus on user and developer experiences when designing, developing, implementing, and testing new products and features. I navigate comfortably in the unknown to produce high-impact, user-focused products, and features at a superior level of quality, performance, and readability.",
@@ -45,7 +45,7 @@
     {
       "name": "Pluto.tv (via TEKSystems)",
       "location": "Remote",
-      "description": "Pluto TV is the leading FREE streaming television service with 100s of channels & 1000s of movies and shows! 🚀",
+      "description": "Pluto TV is the leading FREE streaming television service with 100s of channels & 1000s of movies and shows!",
       "position": "Sr Software Engineer (SmartTVs)",
       "url": "https://pluto.tv/",
       "startDate": "April 2022",
@@ -159,11 +159,8 @@
       "keywords": ["HTML", "CSS", "Javascript"]
     },
 
-    { "name": "End-to-End Product Development & Feature Implementation" },
+    { "name": "Product Development & Feature Implementation" },
     { "name": "Frontend Architecture", "level": "Master" },
-    {
-      "name": "Angular Schematics/Generators"
-    },
 
     {
       "name": "Software Acceptance Testing",
@@ -172,18 +169,17 @@
     { "name": "A/B Testing", "keywords": ["Optimizely"] },
     { "name": "Streaming Video", "keywords": ["HLS", "MPEG-DASH"] },
 
-    { "name": "Visual Design for UX & UI", "keywords": ["Figma", "Sketch"] },
-    { "name": "End-to-End UX & UI Testing" },
+    { "name": "UX & UI Testing" },
     { "name": "Mobile-Responsive CSS/SCSS" },
     {
       "name": "Reusable Web Component Development"
     },
 
-    { "name": "Angular/React/Vue/Svelte" },
+    { "name": "Web Frameworks (Angular/React/Vue/Svelte)" },
     { "name": "Nrwl/NX Workspaces" },
 
     { "name": "RxJS/Observables" },
-    { "name": "JavaScript/TypeScript • HTML" },
+    { "name": "JavaScript/TypeScript" },
     { "name": "Node.js" },
     { "name": "CI/CD Workflows" }
   ],

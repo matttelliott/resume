@@ -26,10 +26,22 @@
           max-width: unset !important;
         }
       }
+
+      .parent {
+        display: grid;
+        grid-template-columns: repeat(
+          auto-fit,
+          minmax(min(100%/2, max(20em, 100%/4)), 1fr)
+        );
+      }
+
+      .child {
+        max-width: 100%;
+      }
     </style>
   </head>
   <body
-    class="container"
+    class="container my-3"
     x-cloak
     x-data="{ resume: 'loading...' }"
     x-init="resume = await (await fetch('./resume.json')).json()"
@@ -72,13 +84,10 @@
     <main>
       <section>
         <h3>Skills</h3>
-        <ul class="d-flex flex-column flex-wrap" style="height: 25vh">
+        <ul class="parent">
           <template x-for="skill in resume.skills">
-            <li>
+            <li class="child">
               <span x-text="skill.name"></span>
-              <template x-for="keyword in skill.keywords">
-                <span x-text="keyword" style="opacity: 0"></span>
-              </template>
             </li>
           </template>
         </ul>
