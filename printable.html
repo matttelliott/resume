@@ -41,7 +41,7 @@
     </style>
   </head>
   <body
-    class="container my-3"
+    class="container m-5"
     x-cloak
     x-data="{ resume: 'loading...' }"
     x-init="resume = await (await fetch('./resume.json')).json()"
@@ -67,7 +67,11 @@
               ></a>
             </li>
             <li>
-              <a x-text="resume.basics.url" :href="resume.basics.url"></a>
+              <a
+                x-text="resume.basics.url"
+                :href="resume.basics.url"
+                class="d-none"
+              ></a>
             </li>
             <template x-for="profile in resume.basics.profiles">
               <li>

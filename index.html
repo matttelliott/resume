@@ -41,7 +41,7 @@
         <span x-text="resume.basics.location.region"></span>,
         <span x-text="resume.basics.location.countryCode"></span>
       </address>
-      <a x-text="resume.basics.url" :href="resume.basics.url"></a>
+      <a x-text="resume.basics.phone" :href="'tel:' + resume.basics.phone"></a>
       <br />
       <a
         x-text="resume.basics.email"
